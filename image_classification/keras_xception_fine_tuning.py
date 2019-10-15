@@ -20,7 +20,7 @@ names = # All your training AND validation image names.
 labels = # Labels for each of the names above (len(names) must be == len(labels)).
 classes = # All unique labels (without repetition) in your preferred order,
           # e.g. ["cat", "dog", "mouse"]
-n = len(names) # Number of unique classes - useful later.
+n = len(classes) # Number of unique classes - useful later.
 
 ###
 ### 2. Split the data (training + validation):
